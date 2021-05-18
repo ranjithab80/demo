@@ -16,6 +16,7 @@ public class database2 {
 //            driver.findelement(By.id("username")).sendKeys(rs.getString("username"));
 //            driver.findelement(By.id("password")).sendKeys(rs.getString("password"));
 //            driver.findelement(By.id("Login")).click();
+            //login to forcesale
             System.out.println(rs.getString("username"));
             System.out.println(rs.getString("password"));
         }
