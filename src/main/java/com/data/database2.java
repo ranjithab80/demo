@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class database2 {
     public static void main(String[] args) throws SQLException {
-        String host = "localhost";
+       // String host = "localhost";
         String port = "3306";
         Connection con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/workers", "ishanth", "Ishanth@123");
         // Class.forName("com.mysql.jdbc.Driver");
